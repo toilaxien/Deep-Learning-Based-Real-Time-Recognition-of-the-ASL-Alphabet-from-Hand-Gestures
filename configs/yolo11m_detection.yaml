@@ -1,0 +1,27 @@
+name: YOLOv11m
+task: detection
+framework: ultralytics
+weights: weights/YoLo11m_dectection.pt
+input_size: [224, 224]
+batch_size: 512
+epochs: 200
+learning_rate: 0.001
+weight_decay: 0.0005
+label_format: yolo_full_image_box
+augmentation:
+  mosaic: 1.0
+  mixup: 0.1
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 10
+  translate: 0.1
+  scale: 0.5
+  shear: 0.2
+  perspective: 0.0005
+  fliplr: 0.5
+metrics:
+  - precision
+  - recall
+  - map50
+  - map50_95

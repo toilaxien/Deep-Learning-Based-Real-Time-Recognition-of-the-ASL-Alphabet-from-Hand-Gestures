@@ -1,0 +1,2 @@
+image_id,class,signer_id,signer_gender,asl_familiarity,camera_type,resolution,lighting,background_type,annotator_1_label,annotator_2_label,final_label,notes
+example_0001,A,S01,anonymous,beginner,laptop_webcam,720p,indoor_natural_window,plain_wall,A,A,A,example schema only

@@ -1,0 +1,23 @@
+name: ResNet50V2
+task: classification
+framework: tensorflow_keras
+weights: weights/resnet50v2_asl.keras
+input_size: [224, 224]
+batch_size: 64
+epochs: 50
+optimizer: Adam
+learning_rate: 0.001
+loss: categorical_crossentropy
+preprocessing:
+  resize: [224, 224]
+  rescale: 1.0/255.0
+augmentation:
+  random_flip: horizontal
+  random_rotation: 0.08
+  random_zoom: 0.10
+  random_translation: 0.10
+metrics:
+  - accuracy
+  - precision_macro
+  - recall_macro
+  - f1_macro

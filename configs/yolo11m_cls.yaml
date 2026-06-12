@@ -1,0 +1,26 @@
+name: YOLOv11m-cls
+task: classification
+framework: ultralytics
+weights: weights/YoLo11m_csf.pt
+input_size: [224, 224]
+batch_size: 256
+epochs: 155
+learning_rate: 0.001
+weight_decay: 0.0005
+augmentation:
+  mosaic: 1.0
+  mixup: 0.1
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+  degrees: 10
+  translate: 0.1
+  scale: 0.5
+  shear: 0.2
+  perspective: 0.0005
+  fliplr: 0.5
+metrics:
+  - accuracy
+  - precision_macro
+  - recall_macro
+  - f1_macro

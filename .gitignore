@@ -1,0 +1,24 @@
+# Local Python artifacts
+__pycache__/
+*.py[cod]
+
+# Local runtime/cache files
+.matplotlib/
+*.matplotlib-lock
+
+# Microsoft Office temporary files
+~$*
+
+# Evaluation outputs generated locally
+results/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

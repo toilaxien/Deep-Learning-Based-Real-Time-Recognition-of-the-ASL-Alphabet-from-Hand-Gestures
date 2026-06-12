@@ -1,0 +1,16 @@
+# Trained Weights
+
+This folder contains the trained weights referenced by the paper.
+
+| File | Model | Task | Size Bytes | SHA256 |
+|---|---|---:|---:|---|
+| `custom_cnn_asl.keras` | Custom CNN | Classification | 148680943 | `4B7596B07A2F5DC798C57B535576C1D35021A27719AF48797BB04EFF868F6475` |
+| `efficientnetb0_asl.keras` | EfficientNetB0 | Classification | 49704964 | `2877979DAC0ACCC796F066BA171620487A6E18675434AC93D3FF5CC7F9634661` |
+| `resnet50v2_asl.keras` | ResNet50V2 | Classification | 283939880 | `25A8D26894E139DF3048614119EE3020843CC881F91B93D1F8E1F5ED61358EEC` |
+| `ViT.pth` | Vision Transformer | Classification | 343345878 | `F3DF543566BBAFF65654F979C3B384C9373DD8DDD96CA49C6827AA29AAB33BCB` |
+| `YoLo11m_csf.pt` | YOLOv11m-cls | Classification | 20946639 | `E03FE2CFEABBD677CA70A137DD5CDFD2AF15AEF618812AD9BD7439CCA7A7AF24` |
+| `YoLo11m_dectection.pt` | YOLOv11m | Detection | 40507173 | `58197E6B500AB02F9DF6CBDA3272EF06E638D7C104CBFFE2E76264C3213EBDCA` |
+| `YoLo12x.pt` | YOLOv12x | Detection | 119100218 | `37E67D095D46276B0E9FA24D71F1FCB7AF1D94F17EE7BC4326DD14B353D26A76` |
+| `rtdetr-l.pt` | RT-DETR-L | Detection | 66248192 | `51ED37D1799832D1934CE277F3BCEC5DB4517BE0603F7A0B81BD1ED4CBFA3971` |
+
+`inference/model/` contains deployment copies used by the webcam application. Note that `inference/model/YoLo12x.pt` is a smaller deployment copy and has a different SHA256 hash from `weights/YoLo12x.pt`.
