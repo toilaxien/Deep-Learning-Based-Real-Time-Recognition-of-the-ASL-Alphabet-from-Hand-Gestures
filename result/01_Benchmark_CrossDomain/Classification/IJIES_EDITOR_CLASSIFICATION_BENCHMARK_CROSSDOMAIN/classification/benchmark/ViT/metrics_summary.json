@@ -1,0 +1,12 @@
+{
+  "dataset": "benchmark",
+  "model": "ViT",
+  "status": "PASS",
+  "n_images": 17400,
+  "accuracy": 0.9994252873563219,
+  "macro_precision": 0.9994268154671758,
+  "macro_recall": 0.9994252873563219,
+  "macro_f1": 0.9994250935864165,
+  "weighted_f1": 0.9994250935864166,
+  "mean_confidence": 0.9991003839740122
+}

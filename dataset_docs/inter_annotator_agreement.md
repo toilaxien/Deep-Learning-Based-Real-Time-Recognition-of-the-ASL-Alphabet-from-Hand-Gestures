@@ -1,14 +1,10 @@
 # Inter-Annotator Agreement
 
-The paper reports Cohen's kappa:
+Inter-annotator agreement should be computed from the private canonical 870-image cross-domain metadata.
 
-```text
-kappa = 0.94
-```
+The public repository does not include the private per-image annotator labels, so this file does not assert a specific Cohen's kappa value. If a kappa value is reported in the manuscript, include the private calculation evidence in the editor package or mark the value as requiring update.
 
-This value indicates high agreement between the two independent annotators before third-annotator resolution.
-
-To reproduce this value, use the private cross-domain metadata file with the columns:
+Expected private metadata columns:
 
 - `annotator_1_label`
 - `annotator_2_label`
@@ -24,4 +20,4 @@ kappa = cohen_kappa_score(df["annotator_1_label"], df["annotator_2_label"])
 print(kappa)
 ```
 
-The public repository includes only representative samples, so the exact kappa calculation requires the private 870-image metadata file.
+REVIEW CONTENT BEFORE DECISION: add the verified kappa value only after confirming it was computed on the current canonical 870-image cross-domain set.

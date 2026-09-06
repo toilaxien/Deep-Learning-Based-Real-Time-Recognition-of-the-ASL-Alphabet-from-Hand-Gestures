@@ -1,0 +1,9 @@
+{
+  "model": "ViT",
+  "framework": "vit",
+  "load_seconds": 15.047208984999997,
+  "n_predictions": 870,
+  "img_size": 224,
+  "batch_size": 64,
+  "effnet_runtime_compatibility": null
+}

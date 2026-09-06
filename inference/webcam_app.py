@@ -8,6 +8,8 @@ import tempfile
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
+ROOT_DIR = BASE_DIR.parent
+WEIGHTS_DIR = ROOT_DIR / "weights"
 os.environ.setdefault("MPLCONFIGDIR", str(Path(tempfile.gettempdir()) / "asl_crossdomain_matplotlib"))
 
 from ultralytics import YOLO
@@ -18,16 +20,17 @@ import timm
 from torchvision import transforms
 
 # ===================== 1. Load models =====================
-MODEL_DIR = BASE_DIR / "model"
+STAGE1_IMGSZ = 640
+STAGE1_CONF = 0.25
 
-hand_model = YOLO(str(MODEL_DIR / "YoLo12x.pt"))
+hand_model = YOLO(str(WEIGHTS_DIR / "yolov8s_stage1_hand_detector.pt"))
 
 with open(BASE_DIR / "label.txt", "r", encoding="utf-8") as f:
     asl_labels = [line.strip() for line in f if line.strip()]
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 asl_model = timm.create_model("vit_base_patch16_224", pretrained=False, num_classes=len(asl_labels))
-checkpoint = torch.load(MODEL_DIR / "ViT.pth", map_location=device)
+checkpoint = torch.load(WEIGHTS_DIR / "ViT.pth", map_location=device)
 state_dict = checkpoint.get("state_dict", checkpoint) if isinstance(checkpoint, dict) else checkpoint
 state_dict = {k.replace("module.", "", 1): v for k, v in state_dict.items()}
 asl_model.load_state_dict(state_dict, strict=False)
@@ -170,7 +173,7 @@ while cap.isOpened():
     detected_gesture = None
 
     # ---------- Detect hand ----------
-    hand_results = hand_model.predict(frame, imgsz=320, verbose=False)[0]
+    hand_results = hand_model.predict(frame, imgsz=STAGE1_IMGSZ, conf=STAGE1_CONF, verbose=False)[0]
     if hand_results.boxes is not None and len(hand_results.boxes) > 0:
         for box in hand_results.boxes.xyxy.cpu().numpy():
             x1, y1, x2, y2 = map(int, box)

@@ -1,0 +1,6 @@
+dataset,model,status,returncode,wall_seconds
+cross_domain,Custom_CNN,PASS,0,35.54243705299996
+cross_domain,EfficientNetB0,PASS,0,19.760332509000023
+cross_domain,ResNet50V2,PASS,0,18.83770588300001
+cross_domain,ViT,PASS,0,30.50488833700001
+cross_domain,YOLOv11m_cls,PASS,0,10.875743694999985

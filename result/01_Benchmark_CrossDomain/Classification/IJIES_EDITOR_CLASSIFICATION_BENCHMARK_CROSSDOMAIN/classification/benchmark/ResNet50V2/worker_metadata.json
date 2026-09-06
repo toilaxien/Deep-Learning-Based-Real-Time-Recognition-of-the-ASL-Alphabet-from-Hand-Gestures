@@ -1,0 +1,9 @@
+{
+  "model": "ResNet50V2",
+  "framework": "keras",
+  "load_seconds": 7.119755525999949,
+  "n_predictions": 17400,
+  "img_size": 224,
+  "batch_size": 64,
+  "effnet_runtime_compatibility": null
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "benchmark",
+  "resolved_class_root": "/kaggle/input/datasets/toilaxien/asl-benchmark-test-split",
+  "n_images": 17400,
+  "n_classes": 29,
+  "nothing_images": 600
+}

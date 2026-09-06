@@ -1,0 +1,15 @@
+name: YOLOv8s Stage-1 Hand Detector
+task: supporting_hand_localization
+framework: ultralytics
+weights: weights/yolov8s_stage1_hand_detector.pt
+input_size: [640, 640]
+confidence_threshold: 0.25
+role: real_time_stage1_supporting_pipeline_model
+benchmark_model: false
+notes:
+  - Used only for Stage-1 hand localization in the real-time pipeline.
+  - Not counted as a ninth target model in benchmark comparison.
+  - YOLOv8-generated boxes must not be used as ground truth for detection benchmark or cross-domain mAP.
+metrics:
+  - stage1_detection_count
+  - stage1_valid_detection_rate

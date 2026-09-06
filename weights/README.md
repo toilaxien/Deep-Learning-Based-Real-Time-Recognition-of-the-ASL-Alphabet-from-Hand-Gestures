@@ -1,9 +1,11 @@
-# Trained Weights
+# Canonical Checkpoints
 
-This folder contains the trained weights referenced by the paper.
+This folder is the only canonical checkpoint location in the repository. The webcam app and evaluation notebooks should load checkpoints from here.
+
+## Eight Evaluated Target Models
 
 | File | Model | Task | Size Bytes | SHA256 |
-|---|---|---:|---:|---|
+|---|---|---|---:|---|
 | `custom_cnn_asl.keras` | Custom CNN | Classification | 148680943 | `4B7596B07A2F5DC798C57B535576C1D35021A27719AF48797BB04EFF868F6475` |
 | `efficientnetb0_asl.keras` | EfficientNetB0 | Classification | 49704964 | `2877979DAC0ACCC796F066BA171620487A6E18675434AC93D3FF5CC7F9634661` |
 | `resnet50v2_asl.keras` | ResNet50V2 | Classification | 283939880 | `25A8D26894E139DF3048614119EE3020843CC881F91B93D1F8E1F5ED61358EEC` |
@@ -13,4 +15,10 @@ This folder contains the trained weights referenced by the paper.
 | `YoLo12x.pt` | YOLOv12x | Detection | 119100218 | `37E67D095D46276B0E9FA24D71F1FCB7AF1D94F17EE7BC4326DD14B353D26A76` |
 | `rtdetr-l.pt` | RT-DETR-L | Detection | 66248192 | `51ED37D1799832D1934CE277F3BCEC5DB4517BE0603F7A0B81BD1ED4CBFA3971` |
 
-`inference/model/` contains deployment copies used by the webcam application. Note that `inference/model/YoLo12x.pt` is a smaller deployment copy and has a different SHA256 hash from `weights/YoLo12x.pt`.
+## Supporting Stage-1 Model
+
+| File | Model | Role | Size Bytes | SHA256 |
+|---|---|---|---:|---|
+| `yolov8s_stage1_hand_detector.pt` | YOLOv8s | Stage-1 hand localization for real-time inference | 22507643 | `70B540063FBC385736D8258970744A4AFBC4CBF7932134BAE3B24CDADEADEC06` |
+
+The YOLOv8s Stage-1 detector is a supporting pipeline model, not a ninth evaluated target model.

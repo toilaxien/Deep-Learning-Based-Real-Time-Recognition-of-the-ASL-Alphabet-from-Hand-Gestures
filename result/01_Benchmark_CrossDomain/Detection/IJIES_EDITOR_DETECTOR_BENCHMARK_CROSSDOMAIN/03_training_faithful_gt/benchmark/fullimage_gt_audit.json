@@ -1,0 +1,17 @@
+{
+  "dataset": "benchmark",
+  "n_images": 17400,
+  "n_classes": 29,
+  "nothing_images": 600,
+  "nothing_class_id": 27,
+  "delete_detector_name": "del",
+  "delete_class_id": 26,
+  "target_box": [
+    0.5,
+    0.5,
+    1.0,
+    1.0
+  ],
+  "empty_label_files": 0,
+  "training_protocol_match": true
+}

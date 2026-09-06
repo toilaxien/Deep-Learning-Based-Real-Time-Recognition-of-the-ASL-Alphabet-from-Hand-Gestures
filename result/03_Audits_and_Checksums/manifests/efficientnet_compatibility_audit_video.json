@@ -1,0 +1,21 @@
+{
+  "layer_name": "effnet_preprocess",
+  "original_class_name": "Lambda",
+  "serialized_code_present": true,
+  "compatibility_replacement": "EffNetPreprocessCompat implementing preprocess_input(x * 255.0)",
+  "co_names": [
+    "preprocess_input"
+  ],
+  "co_consts": [
+    "None",
+    "255.0"
+  ],
+  "original_model_path": "efficientnetb0_asl.keras",
+  "original_model_sha256": "2877979dac0accc796f066ba171620487a6e18675434ac93d3ff5cc7f9634661",
+  "compat_model_path_filename": "efficientnetb0_asl_kaggle_compat.keras",
+  "compat_model_sha256": "0bdf709524aa7457c08b353f0dc581d253de6502b333a9908b7e7aa8b25e049c",
+  "weights_filename": "model.weights.h5",
+  "weights_sha256": "3105156c39c9f6228dcb4e37f9666d03666dbf4ac5fa71d7768eb7326ad9bb0d",
+  "weights_modified": false,
+  "scientific_status": "POST_PUBLICATION_RUNTIME_COMPATIBILITY_RECONSTRUCTION"
+}

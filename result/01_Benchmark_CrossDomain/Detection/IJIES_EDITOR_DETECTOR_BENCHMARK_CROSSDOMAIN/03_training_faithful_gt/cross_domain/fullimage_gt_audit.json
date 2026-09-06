@@ -1,0 +1,18 @@
+{
+  "dataset": "cross_domain",
+  "n_images": 870,
+  "n_classes": 29,
+  "nothing_images": 30,
+  "nothing_class_id": 27,
+  "delete_training_name": "del",
+  "delete_class_id": 26,
+  "target_box": [
+    0.5,
+    0.5,
+    1.0,
+    1.0
+  ],
+  "empty_label_files": 0,
+  "training_protocol_match": true,
+  "yolov8_stage1_used_as_gt": false
+}

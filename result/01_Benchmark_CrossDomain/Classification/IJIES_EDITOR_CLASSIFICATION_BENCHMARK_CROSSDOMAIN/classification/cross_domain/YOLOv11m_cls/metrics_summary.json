@@ -1,0 +1,12 @@
+{
+  "dataset": "cross_domain",
+  "model": "YOLOv11m_cls",
+  "status": "PASS",
+  "n_images": 870,
+  "accuracy": 0.33793103448275863,
+  "macro_precision": 0.43670772063675173,
+  "macro_recall": 0.3379310344827586,
+  "macro_f1": 0.3094370527247085,
+  "weighted_f1": 0.30943705272470856,
+  "mean_confidence": 0.6675114710269303
+}

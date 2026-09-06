@@ -1,0 +1,24 @@
+{
+  "purpose": "IJIES technical re-examination — original detector benchmark evidence reused + fresh cross-domain retest",
+  "branch": "detection",
+  "benchmark_source": "/kaggle/input/datasets/toilaxien/ijies-editor-detector-benchmark-crossdomain",
+  "benchmark_recomputed_in_this_notebook": false,
+  "cross_domain_source": "/kaggle/input/datasets/toilaxien/asl-crossdomain-dataset/ASL_CROSSDOMAIN_DATASET_TEST",
+  "cross_domain_recomputed_in_this_notebook": true,
+  "old_cross_domain_outputs_included": false,
+  "cross_domain_images": 870,
+  "benchmark_crossdomain_exact_sha256_overlap": 0,
+  "models": [
+    "YOLOv11m",
+    "YOLOv12x",
+    "RT-DETR-L"
+  ],
+  "n_models": 3,
+  "imgsz": 224,
+  "prediction_confidence_threshold": 0.001,
+  "prediction_nms_iou": 0.7,
+  "detector_training_target": "class_id 0.5 0.5 1.0 1.0 for every image",
+  "nothing_policy": "`nothing` is class 27; never background; never an empty GT label",
+  "delete_mapping": "canonical delete -> detector training del / class 26",
+  "yolov8_stage1_used_as_gt": false
+}

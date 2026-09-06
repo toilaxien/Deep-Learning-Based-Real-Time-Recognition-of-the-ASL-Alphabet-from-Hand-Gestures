@@ -1,0 +1,12 @@
+{
+  "dataset": "benchmark",
+  "model": "EfficientNetB0",
+  "status": "PASS",
+  "n_images": 17400,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "mean_confidence": 0.9998781477993932
+}

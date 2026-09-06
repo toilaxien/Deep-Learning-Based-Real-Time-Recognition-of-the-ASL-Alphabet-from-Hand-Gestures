@@ -1,0 +1,10 @@
+{
+  "n_classes": 29,
+  "n_images": 17400,
+  "expected_images": 17400,
+  "expected_per_class": 600,
+  "min_images_per_class": 600,
+  "max_images_per_class": 600,
+  "exact_duplicate_rows": 0,
+  "exact_duplicate_sha256_groups": 0
+}

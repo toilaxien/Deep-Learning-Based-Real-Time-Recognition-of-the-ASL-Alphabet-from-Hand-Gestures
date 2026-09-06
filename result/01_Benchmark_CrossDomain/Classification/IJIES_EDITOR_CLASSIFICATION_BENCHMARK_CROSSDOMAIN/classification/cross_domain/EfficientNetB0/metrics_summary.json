@@ -1,0 +1,12 @@
+{
+  "dataset": "cross_domain",
+  "model": "EfficientNetB0",
+  "status": "PASS",
+  "n_images": 870,
+  "accuracy": 0.6045977011494252,
+  "macro_precision": 0.7464979123610279,
+  "macro_recall": 0.6045977011494253,
+  "macro_f1": 0.598629352419702,
+  "weighted_f1": 0.598629352419702,
+  "mean_confidence": 0.8241138170334115
+}

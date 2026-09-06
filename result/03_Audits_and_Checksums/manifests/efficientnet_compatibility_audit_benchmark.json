@@ -1,0 +1,19 @@
+{
+  "layer_name": "effnet_preprocess",
+  "serialized_code_present": true,
+  "original_model_sha256": "2877979dac0accc796f066ba171620487a6e18675434ac93d3ff5cc7f9634661",
+  "co_names": [
+    "preprocess_input"
+  ],
+  "co_consts": [
+    "None",
+    "255.0"
+  ],
+  "weights_filename": "model.weights.h5",
+  "weights_sha256": "3105156c39c9f6228dcb4e37f9666d03666dbf4ac5fa71d7768eb7326ad9bb0d",
+  "compat_model_path_filename": "efficientnetb0_asl_kaggle_compat_benchmark_cross.keras",
+  "compat_model_sha256": "ed4a67e26504a5b02d6dee0be9d2d7f554007c60ce8761f3cb551b42a7a97142",
+  "weights_modified": false,
+  "replacement": "EffNetPreprocessCompat implementing preprocess_input(x*255.0)",
+  "status": "POST_PUBLICATION_RUNTIME_COMPATIBILITY_RECONSTRUCTION"
+}

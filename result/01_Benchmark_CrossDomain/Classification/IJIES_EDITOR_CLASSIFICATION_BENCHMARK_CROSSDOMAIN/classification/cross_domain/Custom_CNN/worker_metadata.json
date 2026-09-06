@@ -1,0 +1,9 @@
+{
+  "model": "Custom_CNN",
+  "framework": "keras",
+  "load_seconds": 20.854018870000004,
+  "n_predictions": 870,
+  "img_size": 224,
+  "batch_size": 64,
+  "effnet_runtime_compatibility": null
+}

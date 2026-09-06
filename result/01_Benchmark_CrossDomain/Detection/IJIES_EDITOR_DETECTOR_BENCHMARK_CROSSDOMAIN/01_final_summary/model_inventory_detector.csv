@@ -1,0 +1,4 @@
+model,source_filename,exists,size_mb,sha256
+YOLOv11m_det,YoLo11m_dectection.pt,True,38.63065052032471,58197e6b500ab02f9df6cbda3272ef06e638d7c104cbffe2e76264c3213ebdca
+YOLOv12x,YoLo12x.pt,True,113.58281898498537,37e67d095d46276b0e9fa24d71f1fcb7af1d94f17ee7bc4326dd14b353d26a76
+RTDETR_L,rtdetr-l.pt,True,63.17919921875,51ed37d1799832d1934ce277f3bcec5db4517be0603f7a0b81bd1ed4cbfa3971

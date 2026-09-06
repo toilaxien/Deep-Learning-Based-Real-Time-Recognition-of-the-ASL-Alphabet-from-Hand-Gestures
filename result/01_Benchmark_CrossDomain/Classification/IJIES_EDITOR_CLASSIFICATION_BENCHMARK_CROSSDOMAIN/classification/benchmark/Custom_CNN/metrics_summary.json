@@ -1,0 +1,12 @@
+{
+  "dataset": "benchmark",
+  "model": "Custom_CNN",
+  "status": "PASS",
+  "n_images": 17400,
+  "accuracy": 0.9995402298850574,
+  "macro_precision": 0.9995412805009815,
+  "macro_recall": 0.9995402298850574,
+  "macro_f1": 0.9995402291267543,
+  "weighted_f1": 0.9995402291267542,
+  "mean_confidence": 0.9995301945815827
+}

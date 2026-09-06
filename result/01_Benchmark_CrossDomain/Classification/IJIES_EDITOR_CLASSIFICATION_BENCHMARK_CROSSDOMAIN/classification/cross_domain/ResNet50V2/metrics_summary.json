@@ -1,0 +1,12 @@
+{
+  "dataset": "cross_domain",
+  "model": "ResNet50V2",
+  "status": "PASS",
+  "n_images": 870,
+  "accuracy": 0.4689655172413793,
+  "macro_precision": 0.6242916605894098,
+  "macro_recall": 0.46896551724137936,
+  "macro_f1": 0.4615125447038921,
+  "weighted_f1": 0.461512544703892,
+  "mean_confidence": 0.7861943996415056
+}

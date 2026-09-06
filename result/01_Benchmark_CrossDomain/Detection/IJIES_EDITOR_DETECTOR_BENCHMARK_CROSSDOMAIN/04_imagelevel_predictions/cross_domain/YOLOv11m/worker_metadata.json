@@ -1,0 +1,12 @@
+{
+  "model": "YOLOv11m_det",
+  "checkpoint": "YoLo11m_dectection.pt",
+  "n_predictions": 870,
+  "imgsz": 224,
+  "batch_size": 4,
+  "conf": 0.001,
+  "iou": 0.7,
+  "load_seconds": 0.1284073759999842,
+  "no_detection_images": 0,
+  "metric_scope": "fresh detector image-level recognition inference; not bounding-box mAP"
+}

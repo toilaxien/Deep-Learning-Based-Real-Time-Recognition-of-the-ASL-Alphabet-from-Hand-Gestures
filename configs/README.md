@@ -2,6 +2,8 @@
 
 Each YAML file records the model identity, task type, framework, weight path, input resolution, major hyperparameters, preprocessing, augmentation, and reported metric family.
 
+## Eight Evaluated Target Models
+
 | File | Model | Task |
 |---|---|---|
 | `custom_cnn.yaml` | Custom CNN | Classification |
@@ -13,4 +15,10 @@ Each YAML file records the model identity, task type, framework, weight path, in
 | `yolo12x.yaml` | YOLOv12x | Detection |
 | `rtdetr_l.yaml` | RT-DETR-L | Detection |
 
-These files are intended to make the hyperparameters used in the notebooks easier to audit without opening every notebook.
+## Supporting Pipeline Model
+
+| File | Model | Role |
+|---|---|---|
+| `yolov8s_stage1_hand_detector.yaml` | YOLOv8s | Stage-1 hand localization for real-time inference |
+
+The YOLOv8s Stage-1 detector is not part of the eight-model benchmark comparison.

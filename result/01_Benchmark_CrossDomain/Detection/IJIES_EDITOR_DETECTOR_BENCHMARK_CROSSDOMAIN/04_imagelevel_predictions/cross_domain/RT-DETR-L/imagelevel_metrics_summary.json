@@ -1,0 +1,15 @@
+{
+  "dataset": "cross_domain",
+  "model": "RTDETR_L",
+  "display_name": "RT-DETR-L",
+  "n_images": 870,
+  "no_detection_images": 0,
+  "nothing_images_evaluated": 30,
+  "nothing_correct": 8,
+  "nothing_accuracy": 0.26666666666666666,
+  "accuracy": 0.5597701149425287,
+  "macro_precision": 0.5888181253972832,
+  "macro_recall": 0.5597701149425288,
+  "macro_f1": 0.5301724309605272,
+  "metric_scope": "fresh image-level detector recognition on NEW cross-domain; all 29 classes retained; no YOLOv8 filtering; not bbox mAP"
+}

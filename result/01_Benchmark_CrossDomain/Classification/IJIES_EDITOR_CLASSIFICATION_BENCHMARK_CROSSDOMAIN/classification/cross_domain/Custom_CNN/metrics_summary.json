@@ -1,0 +1,12 @@
+{
+  "dataset": "cross_domain",
+  "model": "Custom_CNN",
+  "status": "PASS",
+  "n_images": 870,
+  "accuracy": 0.22528735632183908,
+  "macro_precision": 0.33728627030219444,
+  "macro_recall": 0.22528735632183908,
+  "macro_f1": 0.22637589180022796,
+  "weighted_f1": 0.2263758918002279,
+  "mean_confidence": 0.8345107790724985
+}

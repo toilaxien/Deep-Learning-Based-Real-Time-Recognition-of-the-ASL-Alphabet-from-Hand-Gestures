@@ -1,0 +1,12 @@
+{
+  "dataset": "cross_domain",
+  "model": "ViT",
+  "status": "PASS",
+  "n_images": 870,
+  "accuracy": 0.7528735632183908,
+  "macro_precision": 0.7857688156336454,
+  "macro_recall": 0.7528735632183909,
+  "macro_f1": 0.7429569812780542,
+  "weighted_f1": 0.7429569812780541,
+  "mean_confidence": 0.8998450071818527
+}

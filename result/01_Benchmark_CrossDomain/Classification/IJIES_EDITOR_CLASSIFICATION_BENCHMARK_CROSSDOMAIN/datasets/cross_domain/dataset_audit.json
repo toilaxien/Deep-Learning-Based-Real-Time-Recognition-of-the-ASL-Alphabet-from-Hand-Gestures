@@ -1,0 +1,10 @@
+{
+  "dataset": "cross_domain",
+  "source": "asl-crossdomain-dataset/ASL_CROSSDOMAIN_DATASET_TEST",
+  "n_images": 870,
+  "n_classes": 29,
+  "images_per_class": 30,
+  "nothing_images": 30,
+  "exact_internal_duplicate_groups": 0,
+  "selection_policy": "strict test subset only; exactly 29 classes x 30 images; no trimming and no old cross-domain outputs reused"
+}

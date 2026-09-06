@@ -1,0 +1,12 @@
+{
+  "dataset": "benchmark",
+  "model": "ResNet50V2",
+  "status": "PASS",
+  "n_images": 17400,
+  "accuracy": 0.9998850574712643,
+  "macro_precision": 0.9998851530973283,
+  "macro_recall": 0.9998850574712643,
+  "macro_f1": 0.9998850574313538,
+  "weighted_f1": 0.9998850574313537,
+  "mean_confidence": 0.9995265803631694
+}

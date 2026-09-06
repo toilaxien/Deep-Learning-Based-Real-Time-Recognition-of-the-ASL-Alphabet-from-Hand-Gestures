@@ -1,0 +1,12 @@
+{
+  "model": "RTDETR_L",
+  "checkpoint": "rtdetr-l.pt",
+  "n_predictions": 870,
+  "imgsz": 224,
+  "batch_size": 1,
+  "conf": 0.001,
+  "iou": 0.7,
+  "load_seconds": 0.20692981400009103,
+  "no_detection_images": 0,
+  "metric_scope": "fresh detector image-level recognition inference; not bounding-box mAP"
+}

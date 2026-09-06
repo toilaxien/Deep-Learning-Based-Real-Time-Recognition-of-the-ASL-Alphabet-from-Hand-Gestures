@@ -1,0 +1,9 @@
+{
+  "model": "EfficientNetB0",
+  "framework": "keras",
+  "load_seconds": 9.030493975000013,
+  "n_predictions": 870,
+  "img_size": 224,
+  "batch_size": 64,
+  "effnet_runtime_compatibility": "EffNetPreprocessCompat replacing only serialized no-weight effnet_preprocess Lambda; same preprocess_input(x*255.0); weights unchanged."
+}

@@ -1,0 +1,4 @@
+dataset,model,display_name,n_images,no_detection_images,nothing_images_evaluated,nothing_correct,nothing_accuracy,accuracy,macro_precision,macro_recall,macro_f1,metric_scope
+cross_domain,YOLOv11m_det,YOLOv11m,870,0,30,3,0.1,0.3885057471264367,0.4471637974156902,0.3885057471264367,0.3695074301981217,fresh image-level detector recognition on NEW cross-domain; all 29 classes retained; no YOLOv8 filtering; not bbox mAP
+cross_domain,YOLOv12x,YOLOv12x,870,0,30,3,0.1,0.5183908045977011,0.5447655195438756,0.5183908045977011,0.5016294290079755,fresh image-level detector recognition on NEW cross-domain; all 29 classes retained; no YOLOv8 filtering; not bbox mAP
+cross_domain,RTDETR_L,RT-DETR-L,870,0,30,8,0.2666666666666666,0.5597701149425287,0.5888181253972832,0.5597701149425288,0.5301724309605272,fresh image-level detector recognition on NEW cross-domain; all 29 classes retained; no YOLOv8 filtering; not bbox mAP

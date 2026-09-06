@@ -1,0 +1,9 @@
+{
+  "model": "YOLOv11m_cls",
+  "framework": "yolo_cls",
+  "load_seconds": 3.2658170550000136,
+  "n_predictions": 870,
+  "img_size": 224,
+  "batch_size": 64,
+  "effnet_runtime_compatibility": null
+}

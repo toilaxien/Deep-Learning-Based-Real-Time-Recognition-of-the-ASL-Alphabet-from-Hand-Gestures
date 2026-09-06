@@ -1,0 +1,4 @@
+dataset,model,status
+cross_domain,YOLOv11m_det,PASS
+cross_domain,YOLOv12x,PASS
+cross_domain,RTDETR_L,PASS

@@ -1,0 +1,13 @@
+{
+  "purpose": "Targeted post-publication video re-check",
+  "vit_normalization": "mean=[0.5,0.5,0.5]; std=[0.5,0.5,0.5]",
+  "label_canonicalization": "del->delete; special labels lowercase; letters uppercase",
+  "yolov11m_cls_residual_del_predictions": "0",
+  "stage1_total_frames": 4080,
+  "stage1_detection_success_pct": 96.69117647058823,
+  "stage1_TS_detected_pairs_pct": 95.2759480543899,
+  "ViT_strict_FA_pct": 76.49509803921568,
+  "YOLOv11m_cls_strict_FA_pct": 54.97549019607844,
+  "label_audit_csv": "IJIES_VIDEO_MODEL_LABEL_AUDIT.csv",
+  "targeted_summary_csv": "IJIES_EDITOR_VIDEO_TARGETED_RECHECK_SUMMARY.csv"
+}

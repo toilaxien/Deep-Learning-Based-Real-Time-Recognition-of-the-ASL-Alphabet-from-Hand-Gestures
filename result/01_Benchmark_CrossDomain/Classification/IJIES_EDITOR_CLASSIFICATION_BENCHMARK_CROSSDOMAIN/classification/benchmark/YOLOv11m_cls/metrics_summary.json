@@ -1,0 +1,12 @@
+{
+  "dataset": "benchmark",
+  "model": "YOLOv11m_cls",
+  "status": "PASS",
+  "n_images": 17400,
+  "accuracy": 0.9920689655172413,
+  "macro_precision": 0.9922649766139178,
+  "macro_recall": 0.9920689655172414,
+  "macro_f1": 0.9920766383244886,
+  "weighted_f1": 0.9920766383244883,
+  "mean_confidence": 0.9857708069879091
+}

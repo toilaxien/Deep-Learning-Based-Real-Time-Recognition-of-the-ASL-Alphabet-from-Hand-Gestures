@@ -1,0 +1,16 @@
+{
+  "dataset": "benchmark",
+  "model": "YOLOv12x",
+  "display_name": "YOLOv12x",
+  "bbox_precision": 0.9998498495837255,
+  "bbox_recall": 1.0,
+  "mAP50": 0.9950000000000001,
+  "mAP50_95": 0.995,
+  "imgsz": 224,
+  "conf": 0.001,
+  "iou": 0.7,
+  "gt_protocol": "training-faithful full-image box [0.5,0.5,1.0,1.0] for every image",
+  "nothing_class_id": 27,
+  "nothing_target_box": "0.5 0.5 1.0 1.0",
+  "status": "PASS"
+}
