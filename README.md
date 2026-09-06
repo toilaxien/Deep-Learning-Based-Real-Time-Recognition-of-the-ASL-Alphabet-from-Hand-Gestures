@@ -102,9 +102,8 @@ Before the canonical commit for editor submission, run:
 python tools\validate_repository.py
 ```
 
+The validator checks target checkpoints, supporting YOLOv8s checkpoint, label order, configs, canonical evidence folders, manifests, SHA256 files, and duplicate checkpoint ambiguity.
+
 ## Demo
 
 ![Recording-2025-11-16-154042 (1)](https://github.com/user-attachments/assets/9d13d8e9-d0a7-4ad8-b97a-18d086f27c32)
-
-
-The validator checks target checkpoints, supporting YOLOv8s checkpoint, label order, configs, canonical evidence folders, manifests, SHA256 files, and duplicate checkpoint ambiguity.
