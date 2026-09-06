@@ -98,12 +98,13 @@ The demo loads the YOLOv8s Stage-1 hand detector and ViT classifier from `weight
 
 Before the canonical commit for editor submission, run:
 
+```powershell
+python tools\validate_repository.py
+```
+
 ## Demo
 
 ![Recording-2025-11-16-154042 (1)](https://github.com/user-attachments/assets/9d13d8e9-d0a7-4ad8-b97a-18d086f27c32)
 
-```powershell
-python tools\validate_repository.py
-```
 
 The validator checks target checkpoints, supporting YOLOv8s checkpoint, label order, configs, canonical evidence folders, manifests, SHA256 files, and duplicate checkpoint ambiguity.
