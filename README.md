@@ -104,6 +104,43 @@ python tools\validate_repository.py
 
 The validator checks target checkpoints, supporting YOLOv8s checkpoint, label order, configs, canonical evidence folders, manifests, SHA256 files, and duplicate checkpoint ambiguity.
 
+## Citation
+
+If you use materials from this repository, please cite:
+
+B. X. Ngo, T. L. N. Phan, Q. V. Nguyen, T. D. Le, and T. V. T. Le,
+“Deep Learning Based Real-time Recognition of the ASL Alphabet from Hand Gestures,”
+*International Journal of Intelligent Engineering & Systems*,
+vol. 19, no. 8, p. 493, 2026.
+
+```bibtex
+@article{ngo2026deep,
+  author  = {Ngo, Binh Xuyen and Phan, Ton Loc Nguyen and Nguyen, Quoc Viet and Le, Thanh Dao and Le, Thi Vinh Thanh},
+  title   = {Deep Learning Based Real-time Recognition of the ASL Alphabet from Hand Gestures},
+  journal = {International Journal of Intelligent Engineering \& Systems},
+  volume  = {19},
+  number  = {8},
+  pages   = {493},
+  year    = {2026},
+  issn    = {2185-310X}
+}
+```
+
+## Copyright and Usage
+
+Copyright © 2026 The Authors. All rights reserved unless otherwise stated.
+
+The code, trained checkpoints, experimental materials, figures, tables,
+evaluation outputs, and documentation in this repository may not be
+redistributed, republished, or used commercially without permission from
+the authors, except where a third-party license explicitly applies.
+
+Academic use must include appropriate attribution and citation of the
+associated paper.
+
+Third-party datasets, frameworks, pretrained models, and libraries remain
+subject to their respective licenses and terms.
+
 ## Demo
 
 ![Recording-2025-11-16-154042 (1)](https://github.com/user-attachments/assets/9d13d8e9-d0a7-4ad8-b97a-18d086f27c32)
