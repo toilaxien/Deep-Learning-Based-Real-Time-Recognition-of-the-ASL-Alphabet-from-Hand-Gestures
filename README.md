@@ -1,5 +1,12 @@
 # ASL Alphabet Recognition Technical Re-examination Repository
 
+[![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Keras-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-ViT-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLO-111F68?logo=yolo&logoColor=white)](https://www.ultralytics.com/)
+![Target Models](https://img.shields.io/badge/Target%20Models-8-blue)
+![Status](https://img.shields.io/badge/Status-Technical%20Re--examination-orange)
+
 Private editor-facing repository for the paper:
 
 **Deep Learning Based Real-Time Recognition of the ASL Alphabet from Hand Gestures**
