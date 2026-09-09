@@ -21,4 +21,6 @@ This folder is the only canonical checkpoint location in the repository. The web
 |---|---|---|---:|---|
 | `yolov8s_stage1_hand_detector.pt` | YOLOv8s | Stage-1 hand localization for real-time inference | 22507643 | `70B540063FBC385736D8258970744A4AFBC4CBF7932134BAE3B24CDADEADEC06` |
 
-The YOLOv8s Stage-1 detector is a supporting pipeline model, not a ninth evaluated target model.
+The YOLOv8s Stage-1 detector is a supporting pipeline component and is not counted as a ninth evaluated target model.
+
+The checkpoint used in this study was obtained from the publicly released `hand_yolov8s.pt` model in the Bingsu/adetailer Hugging Face repository. Its SHA-256 hash matches the publicly released checkpoint. The provider reports mAP50 = 79.4% and mAP50–95 = 52.7%; separate Precision and Recall values are not reported.
